@@ -124,10 +124,12 @@
 # countDocuments({<query>})
 # db.<collection-name>.countDocuments({key : {$gt : value}})
 
-# CRUD OPERATION USING PYTHON : NOTE NOTE NOTE NOTE NOTE
+                # CRUD OPERATION USING PYTHON : NOTE NOTE NOTE NOTE NOTE
+
 # They use BSON {binary Json} and extension of JSON : They are also represented in DICTIONARY FORMATE
 # They are used to STORE and ORGANIZE , Easy for RETRIVAL
 # Secure than json , and support MULTIPLE DATATYPE 
+# obj_id type is represented as an instance of the objectId clas 
 
         # USING pymongo {PYTHON & MONGODB} NOTE NOTE NOTE 
 
@@ -143,8 +145,45 @@
 # 4. Creating the Collection
 # col = db.<collection-name>
 
+# NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PYMONGO ARROW NOTE NOTE
+# NOTE NOTE NOTE NOTE NOTE NOTE DATA SCICNE RELATED NOTE NOTE NOTE NOTE 
+# They are an extension of pymonog library, They are used to load PANDAS, NUMPY etc (and the OTHER WAY AROUND)
+# They use APACHE ARROW 
+
+# -> installation : 
+# pip install pymongoarrow
 
  
 
