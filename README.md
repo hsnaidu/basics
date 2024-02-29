@@ -1,4 +1,1 @@
-#### mongodb 
-# python
-# sql
-# data science
+#### MongoDB , Python , SQL , Data Science & Analytics
