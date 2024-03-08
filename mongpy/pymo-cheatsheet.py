@@ -137,7 +137,7 @@
 # from pymongo import mongoClient
 
 # 2. Initalize the connection
-# conn = pymongo.mongoClient("<connection string from atlas")
+# conn = pymongo.MongoClient("<connection string from atlas>")
 
 # 3. Creating the DataBase
 # db = conn['data-base]
@@ -146,7 +146,6 @@
 # col = db.<collection-name>
 
 # NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE 
-
 
 
 

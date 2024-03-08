@@ -203,6 +203,7 @@
 #https://learn.mongodb.com/learn/course/mongodb-crud-operations-in-python/lesson-2-inserting-a-document-in-python-applications/learn?client=customer&page=2
 
 
+# Initiating a connection and creating a database and a connection and add a value and search a value using python
 
 
 
