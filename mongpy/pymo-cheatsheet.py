@@ -146,6 +146,8 @@
 # col = db.<collection-name>
 
 # NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE 
+# NOTE <!-========= ONE CRASH COURSE========-!>
+# NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE 
 
 
 
