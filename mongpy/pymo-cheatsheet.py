@@ -32,6 +32,12 @@
 # ONE : db.<collection-name>.insertOne({key:value})
 # MANY : db.<collection-name>.insertMany([{key:value},{key:value}]) # ARRAY MUST BE USED 
 
+
+        # FINDING DOCUMENT'S  : ALL READ OPERATIONS NOTE NOTE
+
+# IF THIS VALUE IS NOT THERE : db.<collection-name>.find({key: {$exists : false / true}})
+
+
         # FINDING DOCUMENT'S  : ALL READ OPERATIONS NOTE NOTE
 
 # SPECIFIC_VALUE : db.<collection-name>.find({key:value})
