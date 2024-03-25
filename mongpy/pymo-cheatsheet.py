@@ -33,7 +33,7 @@
 # MANY : db.<collection-name>.insertMany([{key:value},{key:value}]) # ARRAY MUST BE USED 
 
 
-        # FINDING DOCUMENT'S  : ALL READ OPERATIONS NOTE NOTE
+        # CHECKING IF THE ELEMENT EXISTS OR NOT USING BOOLEAN  : ALL READ OPERATIONS NOTE NOTE
 
 # IF THIS VALUE IS NOT THERE : db.<collection-name>.find({key: {$exists : false / true}})
 
@@ -152,8 +152,24 @@
 # col = db.<collection-name>
 
 # NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE 
-# NOTE <!-========= ONE CRASH COURSE========-!>
+# NOTE <!-========= ONE CRASH COURSE========-!> 
 # NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE NOTE 
+
+
+# NOTE NOTE NOTE NOTE PY-MONGO ARROW
+
+# THEY ALLOW YOU TO LOAD THE MONOGDB QUERY -----> PANDAS , NUMPY OR APACHE ARROW 
+# THEY USE APACHE ARROW UNDER THE HOOD 
+# USECASE : EFFICIENT DATA TRANSFER, HIGH PERFORMANCE, SUITED FOR LARGER DATASET
+
+# 1. INSTALL DEPENDANCIES : ATLAS
+# 2. USE JUPYTER NOTEBOOK TO RUN THE PROGRAM 
+
+# python -m pip install  --upgrade pymongoarrow
+# python -m pip install --upgrade "pymongo[srv]"
+# python -m pip install --upgrade pandas numpy pyarrow
+
+
 
 
 
