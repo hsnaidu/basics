@@ -1,2 +1,1 @@
-#### MongoDB , Python , SQL , Data Science & Analytics
-##### All Refrences Adding ...
+#### MongoDB , Python , SQL , Data Science & Analytics Basics
